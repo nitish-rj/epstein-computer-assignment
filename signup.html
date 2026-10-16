@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sign Up - Epstein's Island</title>
+    <link rel="stylesheet" href="epstein.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="home.html" class="logo">Epstein's Island</a>
+            <ul>
+                <li><a href="home.html#about">About</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="section1">
+        <div class="container1">
+            <h2 class="section-title">Create Your Account</h2>
+            <form class="frm" method="POST" action="signup.php">
+                <div class="frm-grp">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="fname" required>
+                </div>
+                
+                <div class="frm-grp">
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lname" required>
+                </div>
+                
+                <div class="frm-grp">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="frm-grp">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                
+                <div class="frm-grp">
+                    <label for="msg">Message</label>
+                    <textarea id="msg" name="msg"></textarea>
+                </div>
+                
+                <button type="submit" class="frm-submit">Sign Up</button>
+            </form>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="linkupp">
+            <p>Epstein didn't kill himself</p>
+        </div>
+    </footer>
+</body>
+</html>
